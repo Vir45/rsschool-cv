@@ -8,7 +8,7 @@ My email    <vovaserko01392@gmail.com>
 
 ------------------------- 
 #### My goal
-I want to become a good **frontend developer**. I know I can do it. I am capable man, I am easy to learn new things.
+I want to become a good **frontend developer**. I know I can do it. I am capable man, I am easy to learn new things, I can work good in team.
 
 ------------------------- 
 #### My skills
