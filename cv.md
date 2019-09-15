@@ -18,7 +18,7 @@ I want to become a good **frontend developer**. I know I can do it. I am capable
 
 ------------------------- 
 
-#### Code examples
+#### Code example
 ```
 let toTegSpan = (str) => {
   let arr = str.split(' ');
