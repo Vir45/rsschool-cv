@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a:link {
+    color: black;
+}
+
+a:active {
+    color: green;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1024px;
+    font-family: "Arial", sans-serif;
+    color: black;
+    background-color: #F5F5F5;
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    margin-top: 4px;
+    list-style: none;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-me h1 {
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.my-photo {
+    margin-bottom: 8px;
+    border-radius: 30px;
+}
+
+.photo-mail {
+    margin-right: 5px;
+}
+
+.phone {
+    margin-top: 4px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+h2 {
+    margin: 15px 0 15px;
+}
+
+hr {
+    margin: 20px 15px 0 15px;
+}
+
+.my-code-lang {
+    display: flex;
+    justify-content: center;
+}
+
+.my-code-lang>p {
+    margin-right: 20px;
+    padding: 25px;
+    border: 2p solid black;
+    background-color: dimgray;
+    border-radius: 50%;
+}
+
+#code {
+    display: flex;
+    flex-direction: column;
+}
+
+.codes {
+    align-self: center;
+}
+
+#education {
+    padding-bottom: 15px;
+}
+
+#english>p {
+    margin: 0 15px 15px;
+    display: inline-block;
+}
+
+footer {
+    padding: 15px 0 15px;
+    color: aliceblue;
+    background-color: darkgray;
+}
+
+.social {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social a {
+    margin-right: 10px;
+}
