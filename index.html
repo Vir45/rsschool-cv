@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vova Serko</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="center">
+            <div class="about-me">
+                <h1>Vova Serko</h1>
+                <img class="my-photo" src="img/my_photo.png" alt="My photo" width="400" height="500">
+                <div class="mail">
+                    <a href="mailto:vovaserko01392@gmail.com"><img class="photo-mail" src="./img/mail.png" width="12"
+                            height="12" alt="mail">vovaserko01392@gmail.com</a>
+                </div>
+                <div class="phone">
+                    <a href="tel:+375292723190"><img src="./img/phone.png" width="12" height="12" alt="phone">
+                        +375292723190</a>
+                </div>
+            </div>
+            <nav>
+                <a href="#goal">Goal</a>
+                <a href="#skills">Skills</a>
+                <a href="#code">Code examples</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#english">English</a>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <section id="goal" class="center">
+                <h2>Goal</h2>
+                <p>I want to become a good <strong>frontend developer</strong>.
+                    I know I can do it. I am capable man, I am easy to learn new things, I can work good in team.</p>
+            </section>
+            <hr>
+            <section id="skills" class="center">
+                <h2>Skills</h2>
+                <div class="my-code-lang">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                </div>
+            </section>
+            <hr>
+            <section id="code">
+                <div class="code-title">
+                    <h2 class="center">Code example</h2>
+                </div>
+                <div class="codes">
+                    <pre><code>
+let toTegSpan = (str) => {
+    let arr = str.split(' ');
+    let result = arr.map((item) => {
+    item = `&#60;span>${item}&#60;/span>`;
+    return item;
+    });
+    return result.join(' ')
+}
+                        </code>
+                </pre>
+                </div>
+            </section>
+            <hr>
+            <section id="experience" class="center">
+                <h2>Experience</h2>
+                <ul>
+                    <li><a href="https://htmlacademy.ru/profile/id1052383" target="_blank">Htmlacademy</a></li>
+                    <li><a href="https://ru.hexlet.io/u/user-1402da69318e0698" target="_blank">Hexlet</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCe_H8hzx9WV7Ca7Ps5gt72Q" target="_blank">Web
+                            Developer</a></li>
+                    <li><a href="https://github.com/Vir45?tab=repositories" target="_blank">My github</a></li>
+                </ul>
+            </section>
+            <hr>
+            <section id="education" class="center">
+                <h2>Education</h2>
+                <a href="https://learn.javascript.ru/" target="_blank">Books learn.javascript.ru</a>
+            </section>
+            <hr>
+            <section id="english" class="center">
+                <h2>English</h2>
+                <p>School</p>
+                <p>University</p>
+            </section>
+        </main>
+        <footer class="center">
+            <h4>Vova Serko</h4>
+            <div class="social">
+                <a href="#"><img src="./img/face.png" alt="facebook"></a>
+                <a href="#"><img src="./img/twit.png" alt="twiter"></a>
+                <a href="#"><img src="./img/goog.png" alt="google"></a>
+                <a href="#"><img src="./img/inst.png" alt="instagram"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
